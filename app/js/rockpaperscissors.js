@@ -66,7 +66,14 @@ function playToFive() {
       }
       console.log("Score is Player: " + playerWins + ", Computer: " + computerWins);
     }
+
+    if (playerWins = 5) {
+      alert("Player wins");
+    } else {
+      alert("Computer Wins! You lose!");
+    }
+
     return [playerWins, computerWins];
 }
 
-playToFive()
+playToFive();
